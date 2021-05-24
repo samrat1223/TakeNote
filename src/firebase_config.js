@@ -1,13 +1,15 @@
 import firebase from "firebase";
 
-var firebaseConfig = {
-    apiKey: "AIzaSyBdLARNsaMEf1WLHxLD3oTUL1N0FxJhQKM",
-    authDomain: "takenote-b3707.firebaseapp.com",
-    projectId: "takenote-b3707",
-    storageBucket: "takenote-b3707.appspot.com",
-    messagingSenderId: "273843954287",
-    appId: "1:273843954287:web:652e2a690be606a806639a"
-  };
+const firebaseConfig = {
+  apiKey: "AIzaSyBvO0rQXbztbU2YtRhI0ld7R3reV8vyb5w",
+  authDomain: "takenote-b6731.firebaseapp.com",
+  //databaseURL: "https://takenote-b6731.firebaseio.com",
+  projectId: "takenote-b6731",
+  storageBucket: "takenote-b6731.appspot.com",
+  messagingSenderId: "1067990029135",
+  appId: "1:1067990029135:web:86a261592d0b6cb29d6b3a"
+};
+
 
   firebase.initializeApp(firebaseConfig);
 
